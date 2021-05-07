@@ -26,10 +26,10 @@ I hope you enjoy the productivity boost from this tool in your Flutter developme
 - <a href="https://www.youtube.com/playlist?list=PLs9tmBOnV5sK0rBjCEyZI0Y1SogfPOaMF" target="_blank">fonts2yaml YouTube Playlist</a>
 - <a href="https://www.youtube.com/watch?v=ah06rY-sYzs" target="_blank">50 second infomercial</a>
 -  <a href="https://www.youtube.com/watch?v=a9cSo0OiGuA" target="_blank">10 minute installation for Windows</a> (recommended for most Windows developers.)
-- 2 minute installation for macOS (recommended for most macOS developers.)
+- <a href="https://youtu.be/Bw5JM8XB2LI" target="_blank">12 minute installation for macOS</a> (recommended for most macOS developers.)
 - <a href="https://youtu.be/G-zDsN-YQq4" target="_blank">10 minute usage, getting the most from the feature set</a> (recommended for most developers.)
-- (planned)30 minute deep-dive on writing this tool that covers the code and architecture.
-- (planned)30 minute deep-dive on unit and integration tests for this tool.
+- (planned) deep-dive on writing this tool that covers the code and architecture.
+- (planned) deep-dive on unit and integration tests for this tool.
 
 ## Tool Usage
 
