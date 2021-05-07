@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "dart compile exe bin/fonts2yaml.dart -o d:\\dart\\fonts2yaml.exe",
+            "problemMatcher": []
+        },
+        {
+            "label": "global activate",
+            "type": "shell",
+            "command": "dart pub global activate --executable=fonts2yaml --source path .",
+            "problemMatcher": []
+        }
+    ]
+}
