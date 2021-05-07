@@ -161,12 +161,12 @@ You can now execute `fonts2yaml` from any terminal on you system, *provided you 
 
 > **NOTE:** if you have open terminal windows or an open IDE and your modify your path, you much close and reopen them to refresh you path environment variable.
 
-> **Pro Tip:** Add a VSCode task that executes the compile command. I've provided two .json files in the `example vscode files` folder.  The sample task.json file can be copied  to your .vscode folder and then modified to meet you needs. 
+> **Pro Tip:** Add a VSCode task that executes the compile command. I've provided two .json files in the `example vscode files` folder.  The sample task.json file can be copied  to your .vscode folder and then modified to meet you needs.
 >
 >I also use <a href="https://marketplace.visualstudio.com/items?itemName=forbeslindesay.forbeslindesay-taskrunner#review-details" target="_blank">Task Runner</a> to easily discover and run my tasks.
 >
 > ![example json files](resources/examplejsonfiles.jpg)
-> ![task runner](resources/taskrunner.jpg)
+> ![task runner](resources/taskrunneroptions.png)
 
 #### Use dart pub global activate
 
