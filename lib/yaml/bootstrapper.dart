@@ -54,7 +54,8 @@ class _Bootstrapper {
       if (topLevelFontPaths.isNotEmpty) {
         var folders = [...topLevelFontPaths, ...fonts2yamlConfig.topLevelFontPaths];
         topLevelFontPaths = folders.toSet().toList();
-        topLevelFontPaths.sort();
+      } else {
+        topLevelFontPaths = fonts2yamlConfig.topLevelFontPaths.toSet().toList();
       }
       if (fonts2yamlConfig.fontFileExtensions != null && fonts2yamlConfig.fontFileExtensions!.isNotEmpty) {
         var extensions = [...fontFileExtensions, ...fonts2yamlConfig.fontFileExtensions!];
@@ -65,6 +66,8 @@ class _Bootstrapper {
     if (topLevelFontPaths.isEmpty) {
       topLevelFontPaths.add('assets');
     }
+
+    topLevelFontPaths.sort((a, b) => a.toLowerCase().compareTo(b.toLowerCase()));
 
     if (!validateDirectoryEntires(topLevelFontPaths)) {
       return null;

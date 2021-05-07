@@ -1,4 +1,4 @@
-# Fonts 2 YAML
+# Fonts2YAML
 
 ![hero image](resources/hero2.jpg)
 
@@ -25,7 +25,7 @@ I hope you enjoy the productivity boost from this tool in your Flutter developme
 
 - <a href="https://www.youtube.com/playlist?list=PLs9tmBOnV5sK0rBjCEyZI0Y1SogfPOaMF" target="_blank">Fonts2YAML YouTube Playlist</a>
 - <a href="https://www.youtube.com/watch?v=ah06rY-sYzs" target="_blank">50 second infomercial</a>
-- 2 minute installation for Windows (recommended for most windows developers.)
+-  <a href="https://www.youtube.com/watch?v=a9cSo0OiGuA" target="_blank">10 minute installation for Windows</a> (recommended for most Windows developers.)
 - 2 minute installation for macOS (recommended for most macOS developers.)
 - 2 minute usage video (recommended for most developers.)
 - (planned)30 minute deep-dive on writing this tool that covers the code and architecture.
@@ -72,6 +72,13 @@ You can structure your projects any way you want.  The only requirement is to te
 If you do not specify any folders the tool defaults to using the `assets` folder.
 
 ![top-level or root folders](resources/assetsfoldertoplevel.jpg)
+
+### Support Font Files
+
+The tool is programmed to support fonts downloaded from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>. The downloaded files all have a very specific naming convention that this tool understands. These below fonts are from Google Fonts. The naming convention fontfamily-weightstyle.extension where the style is optional.  Fonts downloaded from other sources may not follow this naming convention and would not work as expected. If you run into a problem with a font name, please post the issue in the discussion tab and I'll look into possibly supporting it.
+
+        Montserrat-BoldItalic.ttf
+        SpaceMono-Bold.ttf
 
 ### Config file
 

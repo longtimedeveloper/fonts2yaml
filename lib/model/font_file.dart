@@ -1,3 +1,6 @@
+import 'dart:io' as io;
+
+import 'package:fonts2yaml/infrastructure/constants.dart';
 import 'package:fonts2yaml/infrastructure/path.dart';
 import 'package:fonts2yaml/model/weight_style.dart';
 
@@ -29,6 +32,10 @@ class FontFile {
   String relativePathName;
 
   String toYamlEntry() {
-    return '- asset: $relativePathName';
+    var path = relativePathName;
+    if (io.Platform.isWindows) {
+      path = relativePathName.replaceAll(Constants.forwardSlash, Constants.backSlash);
+    }
+    return '- asset: $path';
   }
 }

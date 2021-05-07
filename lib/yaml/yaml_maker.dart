@@ -24,9 +24,6 @@ class _YamlMaker {
     if (fileFullPath.startsWith(io.Platform.pathSeparator)) {
       fileFullPath = fileFullPath.replaceRange(0, 1, '');
     }
-    if (io.Platform.isWindows) {
-      fileFullPath = fileFullPath.replaceAll(Constants.forwardSlash, Constants.backSlash);
-    }
     return fileFullPath;
   }
 
@@ -47,6 +44,8 @@ class _YamlMaker {
         }
       }
     }
+
+    fontFiles.sort((a, b) => a.relativePathName.toLowerCase().compareTo(b.relativePathName.toLowerCase()));
 
     return fontFiles;
   }
@@ -85,6 +84,10 @@ class _YamlMaker {
           yamlLines.add(makeEntry(IndentLevel.five, 'weight: ${ff.fontWeightNumber.toString()}'));
         }
       }
+    } else {
+      Log.Warning('');
+      Log.Warning('No font files found in this project.');
+      Log.Warning('');
     }
 
     return UnmodifiableListView(yamlLines);
