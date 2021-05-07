@@ -1,4 +1,4 @@
-# Fonts2YAML
+# fonts2yaml
 
 ![hero image](resources/hero2.jpg)
 
@@ -6,7 +6,7 @@ The <a href="https://flutter.dev/docs/cookbook/design/fonts" target="_blank">Flu
 
 This tool greatly simplifies this task by discovering font files in your project and updating the `fonts:` section in the `pubspec.yaml` file. 
 
-Please share your thoughts on this tool in the <a href="https://github.com/longtimedeveloper/fonts2yaml/discussions" target="_blank">Fonts2YAML DIscussions</a> tab, thank you.
+Please share your thoughts on this tool in the <a href="https://github.com/longtimedeveloper/fonts2yaml/discussions" target="_blank">fonts2yaml DIscussions</a> tab, thank you.
 
 ## Status
 
@@ -23,11 +23,11 @@ I hope you enjoy the productivity boost from this tool in your Flutter developme
 
 ## Videos
 
-- <a href="https://www.youtube.com/playlist?list=PLs9tmBOnV5sK0rBjCEyZI0Y1SogfPOaMF" target="_blank">Fonts2YAML YouTube Playlist</a>
+- <a href="https://www.youtube.com/playlist?list=PLs9tmBOnV5sK0rBjCEyZI0Y1SogfPOaMF" target="_blank">fonts2yaml YouTube Playlist</a>
 - <a href="https://www.youtube.com/watch?v=ah06rY-sYzs" target="_blank">50 second infomercial</a>
 -  <a href="https://www.youtube.com/watch?v=a9cSo0OiGuA" target="_blank">10 minute installation for Windows</a> (recommended for most Windows developers.)
 - 2 minute installation for macOS (recommended for most macOS developers.)
-- 2 minute usage video (recommended for most developers.)
+- <a href="https://youtu.be/G-zDsN-YQq4" target="_blank">10 minute usage, getting the most from the feature set</a> (recommended for most developers.)
 - (planned)30 minute deep-dive on writing this tool that covers the code and architecture.
 - (planned)30 minute deep-dive on unit and integration tests for this tool.
 
@@ -199,7 +199,7 @@ To work around this issue you have two options.
 
 Great question!
 
-I want to see if the Flutter community is interested in this tool before spending a lot of time publishing a package. Let me know your thoughts in the <a href="https://github.com/longtimedeveloper/fonts2yaml/discussions" target="_blank">Fonts2YAML DIscussions</a> tab.
+I want to see if the Flutter community is interested in this tool before spending a lot of time publishing a package. Let me know your thoughts in the <a href="https://github.com/longtimedeveloper/fonts2yaml/discussions" target="_blank">fonts2yaml DIscussions</a> tab.
 
 Actually, this tool is a candidate for the Flutter CLI.
 
