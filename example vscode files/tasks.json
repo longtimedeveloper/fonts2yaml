@@ -4,7 +4,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "compile",
+            "label": "mac-compile",
+            "type": "shell",
+            "command": "dart compile exe bin/fonts2yaml.dart -o $HOME/development/dart/fonts2yaml",
+            "problemMatcher": []
+        },
+        {
+            "label": "win-compile",
             "type": "shell",
             "command": "dart compile exe bin/fonts2yaml.dart -o d:\\dart\\fonts2yaml.exe",
             "problemMatcher": []

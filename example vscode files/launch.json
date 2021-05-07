@@ -5,7 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "fonts2yaml trial run",
+            "name": "mac-fonts2yaml trial run",
+            "type": "dart",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/fonts2yaml.dart",
+            "args": [
+                "-t"
+            ],
+            "cwd": "/Users/karlshifflett/Documents/code/flutters/apps/exploringThemes"
+        },
+        {
+            "name": "mac-fonts2yaml",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/bin/fonts2yaml.dart",
+            "args": [],
+            "cwd": "/Users/karlshifflett/Documents/code/flutters/apps/exploringThemes"
+        },
+        {
+            "name": "win-fonts2yaml trial run",
             "type": "dart",
             "request": "launch",
             "program": "${workspaceFolder}/bin/fonts2yaml.dart",
@@ -15,7 +33,7 @@
             "cwd": "D:\\Code\\flutters\\apps\\exploring_themes"
         },
         {
-            "name": "fonts2yaml",
+            "name": "win-fonts2yaml",
             "request": "launch",
             "type": "dart",
             "program": "${workspaceFolder}/bin/fonts2yaml.dart",

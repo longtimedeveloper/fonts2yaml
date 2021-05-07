@@ -139,9 +139,15 @@ There are two options for enabling you to execute this tool from the command-lin
 
 #### Compiling the tool
 
-To compile the tool on your system run the below command.  You will have to modify the '-o' option to point to a folder on your system *that is in your path*.  I use `d:\dart` for my command line tools and utility batch files.
+To compile the tool on your system run the below command.  You will have to modify the '-o' option to point to a folder on your system *that is in your path*.
+
+Windows:
 
         dart compile exe bin/fonts2yaml.dart -o d:\dart\fonts2yaml.exe
+
+macOS:
+
+        dart compile exe bin/fonts2yaml.dart -o $HOME/development/dart/fonts2yaml
 
 On my system when I compile with the above command I get the following results.
 
@@ -170,7 +176,10 @@ Full command text.
 
         dart pub global activate --executable=fonts2yaml --source path . 
 
-The above command will create the batch file `fonts2yaml.bat` in your local pub bin cache, see the below table for your system's location.
+On Windows the above command will create the batch file `fonts2yaml.bat` in your local pub bin cache, see the below table for your system's location.
+
+On macOS the above command will create the batch file `fonts2yaml` in your local pub bin cache.
+
 
 | Platform | Cache location |
 |------------|--------------|
@@ -198,6 +207,8 @@ To work around this issue you have two options.
 #### Karl why didn't you publish the tool as a package in pub.dev?
 
 Great question!
+
+I want to wait until the above `dart pub global activate` issue is corrected so users will not have to edit a file to use the Dart SDK feature.
 
 I want to see if the Flutter community is interested in this tool before spending a lot of time publishing a package. Let me know your thoughts in the <a href="https://github.com/longtimedeveloper/fonts2yaml/discussions" target="_blank">fonts2yaml DIscussions</a> tab.
 

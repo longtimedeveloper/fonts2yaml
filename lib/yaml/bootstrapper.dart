@@ -1,4 +1,5 @@
 import 'dart:collection';
+import 'dart:io' as io;
 import 'dart:convert';
 import 'package:file/file.dart';
 import 'package:fonts2yaml/infrastructure/infrastructure.dart';
@@ -115,7 +116,7 @@ class _Bootstrapper {
   Fonts2YamlRequest? run(List<String> commandLineArgs) {
     Log.Information('');
 
-    final pubspecYamlFileName = '${fs.currentDirectory.path}\\pubspec.yaml';
+    final pubspecYamlFileName = '${fs.currentDirectory.path}${io.Platform.pathSeparator}pubspec.yaml';
 
     if (!fs.file(pubspecYamlFileName).existsSync()) {
       Log.Error('Current folder is not a Flutter application.');
