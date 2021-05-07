@@ -149,7 +149,7 @@ macOS:
 
         dart compile exe bin/fonts2yaml.dart -o $HOME/development/dart/fonts2yaml
 
-On my system when I compile with the above command I get the following results.
+On my Windows system, compile produces the following results.
 
 ```
 D:\Code\flutters\fonts2yaml>dart compile exe bin/fonts2yaml.dart -o d:\dart\fonts2yaml.exe
