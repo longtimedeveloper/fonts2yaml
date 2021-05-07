@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mac-fonts2yaml trial run",
+            "name": "mac-fonts2yaml trial run ",
             "type": "dart",
             "request": "launch",
             "program": "${workspaceFolder}/bin/fonts2yaml.dart",
